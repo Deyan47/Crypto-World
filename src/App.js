@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
+
 import { Layout, Typography, Space } from "antd";
 
 import {
@@ -45,7 +46,7 @@ const App = () => (
           style={{ color: "white", textAlign: "center" }}
         >
           Copyright © 2021
-          <Link to="/">Cryptoverse Inc.</Link> <br />
+          <Link to="/">Crypto World Inc.</Link> <br />
           All Rights Reserved.
         </Typography.Title>
         <Space>

@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import HTMLReactParser from "html-react-parser";
 import { useParams } from "react-router-dom";
+
+import HTMLReactParser from "html-react-parser";
+
 import millify from "millify";
+
 import { Col, Row, Typography, Select } from "antd";
 import {
   MoneyCollectOutlined,
