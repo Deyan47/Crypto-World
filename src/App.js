@@ -1,10 +1,8 @@
 import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
-
 import { Layout, Typography, Space } from "antd";
 
 import {
-  Exchanges,
   Homepage,
   News,
   Cryptocurrencies,
@@ -25,9 +23,6 @@ const App = () => (
             <Route exact path="/">
               <Homepage />
             </Route>
-            <Route exact path="/exchanges">
-              <Exchanges />
-            </Route>
             <Route exact path="/cryptocurrencies">
               <Cryptocurrencies />
             </Route>
@@ -46,12 +41,11 @@ const App = () => (
           style={{ color: "white", textAlign: "center" }}
         >
           Copyright © 2021
-          <Link to="/">Crypto World Inc.</Link> <br />
+          <Link to="/">CryptoWorld Inc.</Link> <br />
           All Rights Reserved.
         </Typography.Title>
         <Space>
           <Link to="/">Home</Link>
-          <Link to="/exchanges">Exchanges</Link>
           <Link to="/news">News</Link>
         </Space>
       </div>
